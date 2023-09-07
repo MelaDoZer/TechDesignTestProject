@@ -967,6 +967,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7905067764306639689, guid: 02a86ca2e84c95e45af30ce83239d7a3, type: 3}
   m_PrefabInstance: {fileID: 1882446107}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1882446109 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2481286406132282392, guid: 02a86ca2e84c95e45af30ce83239d7a3, type: 3}
+  m_PrefabInstance: {fileID: 1882446107}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f988c145b8fb742ac114c0ecdd6e62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1972910274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1018,6 +1029,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1295169522659364266, guid: 625dacad46912d94f8514b2bef0dba9d, type: 3}
+      propertyPath: object_to_activate
+      value: 
+      objectReference: {fileID: 3168259352911184405}
     - target: {fileID: 5488900840171789754, guid: 625dacad46912d94f8514b2bef0dba9d, type: 3}
       propertyPath: m_Name
       value: chest_iron
@@ -1073,10 +1088,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: button_change_scene
       objectReference: {fileID: 0}
+    - target: {fileID: 7457695316596734832, guid: ec0c5450582542a48861283370199c7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7551859708140205307, guid: ec0c5450582542a48861283370199c7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2481286406132282392, guid: 02a86ca2e84c95e45af30ce83239d7a3, type: 3}
+      objectReference: {fileID: 1882446109}
     - target: {fileID: 7551859708140205307, guid: ec0c5450582542a48861283370199c7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
@@ -1182,5 +1201,10 @@ PrefabInstance:
 --- !u!224 &3168259352911184404 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7821321314122957612, guid: ec0c5450582542a48861283370199c7a, type: 3}
+  m_PrefabInstance: {fileID: 3168259352911184403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3168259352911184405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7457695316596734832, guid: ec0c5450582542a48861283370199c7a, type: 3}
   m_PrefabInstance: {fileID: 3168259352911184403}
   m_PrefabAsset: {fileID: 0}

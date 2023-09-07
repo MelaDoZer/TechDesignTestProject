@@ -393,10 +393,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: button_change_scene
       objectReference: {fileID: 0}
+    - target: {fileID: 7457695316596734832, guid: ec0c5450582542a48861283370199c7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7551859708140205307, guid: ec0c5450582542a48861283370199c7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2481286406132282392, guid: 02a86ca2e84c95e45af30ce83239d7a3, type: 3}
+      objectReference: {fileID: 1941015909}
     - target: {fileID: 7551859708140205307, guid: ec0c5450582542a48861283370199c7a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
@@ -511,6 +515,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 173821319}
     m_Modifications:
+    - target: {fileID: 271441895610886686, guid: 69ffbd1de7217a2418f5ef0ec8960cd9, type: 3}
+      propertyPath: object_to_activate
+      value: 
+      objectReference: {fileID: 1742638734}
     - target: {fileID: 1002425685299961586, guid: 69ffbd1de7217a2418f5ef0ec8960cd9, type: 3}
       propertyPath: m_Name
       value: rogue
@@ -839,6 +847,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 390831206339887088, guid: e1364c11bf372ad45a4e3b1da6b76663, type: 3}
   m_PrefabInstance: {fileID: 1504980807}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1742638734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7457695316596734832, guid: ec0c5450582542a48861283370199c7a, type: 3}
+  m_PrefabInstance: {fileID: 553957617}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1941015907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -905,6 +918,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7905067764306639689, guid: 02a86ca2e84c95e45af30ce83239d7a3, type: 3}
   m_PrefabInstance: {fileID: 1941015907}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1941015909 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2481286406132282392, guid: 02a86ca2e84c95e45af30ce83239d7a3, type: 3}
+  m_PrefabInstance: {fileID: 1941015907}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f988c145b8fb742ac114c0ecdd6e62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1957492656
 GameObject:
   m_ObjectHideFlags: 0
