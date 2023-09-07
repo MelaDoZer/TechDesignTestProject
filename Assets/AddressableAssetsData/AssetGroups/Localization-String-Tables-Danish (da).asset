@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Danish (da)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Danish (da)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9c02545c40dcd574bbd4c2a345a2def0
+  m_SerializeEntries:
+  - m_GUID: 2dbedd19aa2eb1c448065cea56cf2e34
+    m_Address: button_change_scene_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 93b7bd7753d5c9b448e4ec6b8b29e2f7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 41d8be191188ed34ba38976cb205b277, type: 2}
+    - {fileID: 11400000, guid: ce1f8762e03e1184db9dc39388cec131, type: 2}
