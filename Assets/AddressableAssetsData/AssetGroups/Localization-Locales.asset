@@ -16,7 +16,22 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: b0388249b2088e045923c8911780be82
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: f0f525b85b9954141a837af3a729c611
+    m_Address: Danish (da)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: 9fcde82525b58b94f873fa29e00037fd
+    m_Address: Russian (ru)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: f099832a853c51240b151bd096a6ae35
+    m_Address: English (en)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 93b7bd7753d5c9b448e4ec6b8b29e2f7, type: 2}
   m_SchemaSet:
