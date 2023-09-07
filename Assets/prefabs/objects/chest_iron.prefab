@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 5821484405981134679}
   - component: {fileID: 524076397938250624}
   - component: {fileID: 1046252006418587560}
+  - component: {fileID: 1295169522659364266}
   m_Layer: 0
   m_Name: chest_iron_0
   m_TagString: Untagged
@@ -137,3 +138,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1295169522659364266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8698572612330552736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1759de77c34294abd06ff81dda9c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  object_to_activate: {fileID: 0}
