@@ -16,8 +16,13 @@ public class rogue_script : MonoBehaviour
 
     void OnMouseDown()
     {
-        object_to_activate.SetActive(true);
-        audio_source.Play();
-        gameObject.GetComponent<Renderer>().enabled = false;
+        if (gameObject.GetComponent<Renderer>().enabled == true)
+
+        {
+            object_to_activate.SetActive(true);
+
+            audio_source.Play();
+            gameObject.GetComponent<Renderer>().enabled = false;
+        }
     }
 }
